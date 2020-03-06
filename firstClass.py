@@ -7,4 +7,6 @@ class Person:
 
 
 a = Person("Dimas")
+b = Person()
 a.sayHi()
+b.sayHi()
