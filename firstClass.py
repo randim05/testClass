@@ -1,7 +1,10 @@
-class firstClass():
-    def __init__(self):
-        print("__init__ firstClass")
-    pass
+class Person:
+    def __init__(self, name='default'):
+        self.name = name
+
+    def sayHi(self):
+        print("hello", self.name)
 
 
-a = firstClass()
+a = Person("Dimas")
+a.sayHi()
