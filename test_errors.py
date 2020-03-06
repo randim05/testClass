@@ -9,3 +9,5 @@ try:
     i = input("input something -->")
 except:
     print("same error")
+else:
+    print("no error. you enther - {}".format(i))
